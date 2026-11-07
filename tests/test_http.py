@@ -45,4 +45,3 @@ class HTTPTests(unittest.TestCase):
         with self.assertRaises(urllib.error.HTTPError) as e:
             urllib.request.urlopen(self.request({'X-Local-Client': '1', 'Content-Type': 'application/json'}, b'{'))
         self.assertEqual(e.exception.code, 400)
-

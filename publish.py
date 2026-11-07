@@ -41,4 +41,3 @@ def main():
         print('Source published on ' + BRANCH + '. Existing main history and visibility were preserved. No live website deployment was performed.')
 if __name__ == '__main__':
     main()
-

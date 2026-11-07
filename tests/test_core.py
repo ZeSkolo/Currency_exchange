@@ -90,4 +90,3 @@ class Tests(unittest.TestCase):
         with patch('urllib.request.urlopen', return_value=response):
             with self.assertRaises(ValueError):
                 run(dict(self.input, mode='live'), self.db)
-
