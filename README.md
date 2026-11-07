@@ -114,4 +114,3 @@ Use publish.sh only after review and restored network/GitHub access. It creates 
 - **Old local data:** verify PROJECT_DB, stop the server, back up and deliberately reset only the intended .data folder.
 - **Validation error:** read the inline message; a failed request is not a saved successful result.
 - **Provider/network unavailable:** default offline functionality remains available and explicitly labeled; never treat a fixture as current external data.
-
