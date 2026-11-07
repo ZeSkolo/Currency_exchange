@@ -1,0 +1,8 @@
+{
+  "unitAndHttpTests": 20,
+  "passed": true,
+  "python": "3.13.15",
+  "desktopMobileBrowserFlowsPassed": true,
+  "remotePublication": false,
+  "applicationLiveProviderCallsTested": false
+}
